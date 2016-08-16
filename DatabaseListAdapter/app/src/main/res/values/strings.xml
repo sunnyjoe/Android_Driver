@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application3</string>
+
+    <string-array name="android_versions">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+    </string-array>
+
+</resources>
