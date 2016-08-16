@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/res/merged/debug/menu/my_contextual_menu.xml",
+        "source": "/Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/res/menu/my_contextual_menu.xml"
+    },
+    {
         "merged": "/Users/jiaoqing/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/menu/my_contextual_menu.xml",
         "source": "/Users/jiaoqing/AndroidStudioProjects/MyApplication3/app/src/main/res/menu/my_contextual_menu.xml"
+    },
+    {
+        "merged": "/Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/res/menu/menu.xml"
     },
     {
         "merged": "/Users/jiaoqing/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/menu/menu.xml",
