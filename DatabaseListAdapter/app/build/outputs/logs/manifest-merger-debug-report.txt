@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:3:5-50
 		INJECTED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml
@@ -14,12 +14,22 @@ ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/Androi
 		INJECTED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
 	android:label
@@ -47,9 +57,17 @@ ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/Androi
 	android:name
 		ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:15:27-74
 activity#com.example.jiaoqing.myapplication3.DataListActivity1
-ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:18:9-64
+ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:18:9-55
 	android:name
 		ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:18:19-52
+activity#com.example.jiaoqing.myapplication3.NewContactActivity
+ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:19:9-22:68
+	android:label
+		ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:21:13-63
+	android:theme
+		ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml:20:13-47
 uses-sdk
 INJECTED from /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:21:5-23:78
@@ -58,6 +76,17 @@ MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Star
 MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.3.0] /Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:23:9-75

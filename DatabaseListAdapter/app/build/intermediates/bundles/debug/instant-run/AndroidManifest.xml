@@ -23,6 +23,10 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.jiaoqing.myapplication3.DataListActivity1" />
+        <activity
+            android:name="com.example.jiaoqing.myapplication3.NewContactActivity"
+            android:label="@string/title_activity_new_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

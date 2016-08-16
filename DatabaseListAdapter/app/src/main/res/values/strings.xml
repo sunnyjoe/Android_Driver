@@ -8,5 +8,6 @@
         <item>Froyo</item>
         <item>Gingerbread</item>
     </string-array>
+    <string name="title_activity_new_contact">NewContactActivity</string>
 
 </resources>
