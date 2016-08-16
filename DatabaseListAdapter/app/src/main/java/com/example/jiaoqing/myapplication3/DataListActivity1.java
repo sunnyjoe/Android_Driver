@@ -78,6 +78,6 @@ public class DataListActivity1 extends AppCompatActivity implements PopupMenuCal
     }
 
     public void popupMenuDidClickUpdate(){
-        Log.e("DATABASE OPERATIONS", "popupMenuDidClickDelete update");
+        Log.e("DATABASE OPERATIONS", "popupMenuDidClickUpdate");
     }
 }
