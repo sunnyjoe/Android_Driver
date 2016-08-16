@@ -9,9 +9,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jiaoqing.myapplication3.DataListActivity1">
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/data_listView"></ListView>
+    <include layout="@layout/list_view"/>
 
 </RelativeLayout>

@@ -36,20 +36,20 @@
         android:id="@+id/searchContact"
         />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Update Contact"
-        android:onClick="updateContact"
-        android:id="@+id/updateContact"
-        />
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Update Contact"-->
+        <!--android:onClick="updateContact"-->
+        <!--android:id="@+id/updateContact"-->
+        <!--/>-->
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Delete Contact"
-        android:onClick="deleteContact"
-        android:id="@+id/deleteContact"
-        />
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Delete Contact"-->
+        <!--android:onClick="deleteContact"-->
+        <!--android:id="@+id/deleteContact"-->
+        <!--/>-->
 
 </LinearLayout>

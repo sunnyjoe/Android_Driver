@@ -11,8 +11,6 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,4 +27,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void searchContact(View view){
+        Intent intent = new Intent(this, SearchContactActivity.class);
+        startActivity(intent);
+    }
 }

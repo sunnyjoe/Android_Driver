@@ -19,6 +19,10 @@
         <activity
             android:name=".NewContactActivity"
             android:label="@string/title_activity_new_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchContactActivity"
+            android:label="@string/title_activity_search_contact"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

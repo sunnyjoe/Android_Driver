@@ -27,6 +27,10 @@
             android:name="com.example.jiaoqing.myapplication3.NewContactActivity"
             android:label="@string/title_activity_new_contact"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.jiaoqing.myapplication3.SearchContactActivity"
+            android:label="@string/title_activity_search_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

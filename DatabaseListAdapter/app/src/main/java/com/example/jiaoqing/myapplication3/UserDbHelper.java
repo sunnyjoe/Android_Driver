@@ -35,6 +35,14 @@ public class UserDbHelper extends SQLiteOpenHelper{
         return cursor;
     }
 
+    public Cursor getContact(String userName, SQLiteDatabase sqLiteDatabase){
+        String[] projections = {UserContact.NewUserInfo.user_name, UserContact.NewUserInfo.user_mob, UserContact.NewUserInfo.user_email};
+        String selection = UserContact.NewUserInfo.user_name + " LIKE ?";
+        String[] selection_args = {"%" + userName + "%"};
+        Cursor cursor = sqLiteDatabase.query(UserContact.NewUserInfo.table_name, projections, selection, selection_args, null, null, null);
+        return cursor;
+    }
+
     public void addInfommations(String name, String mob, String email, SQLiteDatabase db){
         ContentValues contentValues = new ContentValues();
         contentValues.put(UserContact.NewUserInfo.user_name, name);
@@ -44,6 +52,24 @@ public class UserDbHelper extends SQLiteOpenHelper{
 
         Log.e("DATABASE OPERATIONS", "addInfommations");
     }
+
+    public void deleteInformation(String userName, SQLiteDatabase db){
+        String selection = UserContact.NewUserInfo.user_name + " LIKE ?";
+        String[] selection_args = {"%" + userName + "%"};
+        db.delete(UserContact.NewUserInfo.table_name,selection, selection_args);
+    }
+
+    public void updateInfommations(String oldName, String name, String mob, String email, SQLiteDatabase db){
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(UserContact.NewUserInfo.user_name, name);
+        contentValues.put(UserContact.NewUserInfo.user_mob, mob);
+        contentValues.put(UserContact.NewUserInfo.user_email, email);
+
+        String selection = UserContact.NewUserInfo.user_name + " LIKE ?";
+        String[] selection_args = {"%" + oldName + "%"};
+        db.update(UserContact.NewUserInfo.table_name, contentValues, selection, selection_args);
+    }
+
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 

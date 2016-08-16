@@ -9,5 +9,6 @@
         <item>Gingerbread</item>
     </string-array>
     <string name="title_activity_new_contact">NewContactActivity</string>
+    <string name="title_activity_search_contact">SearchContactActivity</string>
 
 </resources>

@@ -4,7 +4,7 @@
     api-level="19"
     density="tvdpi"
     format="7"
-    timestamp="24738133776966" >
+    timestamp="33849286379295" >
 
     <task
         name="javac"
@@ -20,18 +20,13 @@
         duration="0" />
 
     <artifact
-        location="/Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
+        location="/Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="24589783479993" >
+    <build timestamp="33849286379295" >
         <artifact
             location="/Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="24738133776966" >
-        <artifact
-            location="/Users/jiaoqing/Android_Start/DatabaseListAdapter/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

@@ -31,6 +31,11 @@ public class ListDataAdapter extends ArrayAdapter {
     }
 
     @Override
+    public void clear() {
+        list.clear();
+    }
+
+    @Override
     public int getCount(){
         return list.size();
     }
