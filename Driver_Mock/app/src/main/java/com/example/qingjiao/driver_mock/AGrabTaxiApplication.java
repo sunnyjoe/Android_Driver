@@ -3,6 +3,7 @@ package com.example.qingjiao.driver_mock;
 import android.app.Activity;
 import android.app.Application;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.ServiceConnection;
 import android.os.Binder;
 import android.os.Bundle;
@@ -45,9 +46,21 @@ public abstract class AGrabTaxiApplication extends MultiDexApplication implement
     @Override
     public void onCreate() {
         super.onCreate();
+
+        registerActivityLifecycleCallbacks(this);
+
         AGrabTaxiApplication.INSTANCE = this;
 
-//        ConnectionManager.getInstance().setup();
+        ConnectionManager.getInstance().setup();
+    }
+
+
+    public static Context getContext() {
+        return AGrabTaxiApplication.getInstance().getApplicationContext();
+    }
+
+    public static synchronized AGrabTaxiApplication getInstance() {
+        return AGrabTaxiApplication.INSTANCE;
     }
 
     public boolean isAppRunning() {
