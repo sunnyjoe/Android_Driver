@@ -2,7 +2,11 @@ package com.example.qingjiao.driver_mock;
 
 import android.app.Activity;
 import android.app.Application;
+import android.content.ComponentName;
+import android.content.ServiceConnection;
+import android.os.Binder;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.support.multidex.MultiDexApplication;
 
 import com.example.qingjiao.driver_mock.service.*;
@@ -18,8 +22,26 @@ public abstract class AGrabTaxiApplication extends MultiDexApplication implement
 
     protected volatile  boolean mBound;
 
-    private AGrabTaxiService mNewNetWorkService;
+    private AGrabTaxiService mNewNetworkService;
+    private final ServiceConnection mNewNetworkServiceConnection = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(final ComponentName className, final IBinder service) {
+            final LocalBinder binder = (LocalBinder) service;
+            AGrabTaxiApplication.this.mNewNetworkService = binder.getService();
+            AGrabTaxiApplication.this.mBound = true;
+        }
 
+        @Override
+        public void onServiceDisconnected(ComponentName componentName) {
+            AGrabTaxiApplication.this.mBound = false;
+
+            if (AGrabTaxiApplication.this.mNewNetworkService != null) {
+                AGrabTaxiApplication.this.mNewNetworkService.stopSelf();
+            }
+
+            AGrabTaxiApplication.this.mNewNetworkService = null;
+        }
+    }
     @Override
     public void onCreate() {
         super.onCreate();
@@ -65,5 +87,11 @@ public abstract class AGrabTaxiApplication extends MultiDexApplication implement
     @Override
     public void onActivityDestroyed(Activity activity) {
         mLiveActivityCount--;
+    }
+}
+
+public class LocalBinder extends Binder {
+    public AGrabTaxiService getService() {
+        return AGrabTaxiService.this;
     }
 }
